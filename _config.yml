@@ -3,6 +3,7 @@ description: "Download Sudoku Spark and master Sudoku with smart hints, daily ch
 url: "https://khelnedogames.com"
 baseurl: ""
 markdown: kramdown
+permalink: pretty
 
 plugins:
   - jekyll-sitemap
