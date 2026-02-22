@@ -1,0 +1,51 @@
+# Khelnedo Games
+
+> Khelnedo Games is a game development studio that creates premium brain training puzzle games for Android.
+
+## Sudoku Spark — Play & Learn
+
+Sudoku Spark is a free brain training puzzle game for Android, available on the Google Play Store.
+
+- **Developer:** Khelnedo Games
+- **Platform:** Android (Google Play Store)
+- **Price:** Free (ad-supported)
+- **Package:** com.worldclass.sudoku
+- **Download:** https://play.google.com/store/apps/details?id=com.worldclass.sudoku
+- **Website:** https://khelnedogames.com/sudoku-spark/
+
+### Key Features
+- Daily Sudoku challenges (new puzzle every day, same for all players worldwide)
+- 4 difficulty levels: Easy, Medium, Hard, Expert
+- Smart Hints that explain solving techniques (Naked Singles, Hidden Pairs, X-Wing, etc.)
+- Offline play (no internet required)
+- Auto-save progress
+- 30+ achievements across Bronze, Silver, Gold, and Diamond tiers
+- Detailed per-difficulty statistics (win rate, best time, average time)
+- Notes mode (pencil marks) for candidate tracking
+- Unlimited undo and redo
+- Duplicate number highlighting
+- Premium themes: Light, Dark, Soft
+- Victory card sharing to social media
+
+### Brain Training Benefits
+Playing Sudoku daily improves logical thinking, concentration, pattern recognition, and working memory. Sudoku requires pure logic — no math or guessing needed.
+
+### Difficulty Levels Explained
+- Easy: 36-45 givens, solvable with basic scanning and Naked Singles
+- Medium: 30-35 givens, requires Hidden Singles and basic elimination
+- Hard: 25-29 givens, demands Naked Pairs, Pointing Pairs, Box/Line Reduction
+- Expert: 22-26 givens, requires X-Wing, Swordfish, advanced chain techniques
+
+### Learning Resources
+- How to Play Sudoku (beginner guide): https://khelnedogames.com/sudoku-spark/how-to-play/
+- Sudoku Tips & Strategies (15 techniques): https://khelnedogames.com/sudoku-spark/tips-and-strategies/
+- FAQ: https://khelnedogames.com/sudoku-spark/faq/
+- All features: https://khelnedogames.com/sudoku-spark/features/
+
+### Legal
+- Privacy Policy: https://legal.khelnedogames.com/sudoku-spark/privacy-policy
+- Terms of Service: https://legal.khelnedogames.com/sudoku-spark/terms-of-service
+
+### Contact
+- Email: khelnedogames@gmail.com
+- Developer page: https://play.google.com/store/apps/dev?id=6671897208900843596

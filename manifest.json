@@ -1,0 +1,21 @@
+{
+  "name": "Khelnedo Games",
+  "short_name": "Khelnedo",
+  "description": "Premium brain training puzzle games. Home of Sudoku Spark.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FAFAFA",
+  "theme_color": "#6C3CE1",
+  "icons": [
+    {
+      "src": "/assets/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
