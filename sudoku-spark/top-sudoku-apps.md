@@ -103,6 +103,7 @@ Sudoku Coach is the most education-focused Sudoku app available. It teaches over
 
 - Full version costs $9.99 — the free Lite version only covers 10 basic strategies
 - Utilitarian design that prioritizes function over visual appeal
+- Teaching style uses advanced competition terminology (3D Medusa, Death Blossom, Exocet) that may feel intimidating for casual players and beginners
 - No daily challenges, streaks, or gamification features
 - Smaller puzzle library compared to mainstream apps
 - Last updated April 2025
