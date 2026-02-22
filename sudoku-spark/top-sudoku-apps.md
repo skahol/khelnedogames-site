@@ -39,6 +39,7 @@ Sudoku Spark is built around a single idea: Sudoku should teach you, not just te
 
 **Strengths:**
 
+- Unlimited puzzles — every game is freshly generated on-device with a guaranteed unique solution, never repeated
 - Smart Hints explain the *why*, not just the *what* — you actually learn solving techniques
 - Completely free with no in-app purchases and no subscription paywall
 - Privacy-focused: collects only device IDs, no location or financial data
@@ -62,11 +63,10 @@ Sudoku Spark is built around a single idea: Sudoku should teach you, not just te
 
 **Developer:** Easybrain | **Price:** Free with in-app purchases | **Downloads:** 50M+
 
-Sudoku.com is the most downloaded Sudoku app on Android. Backed by Easybrain (a major casual games publisher), it offers a massive library of over 10,000 puzzles and six difficulty levels, plus seasonal events and tournaments that keep the experience fresh.
+Sudoku.com is the most downloaded Sudoku app on Android. Backed by Easybrain (a major casual games publisher), it offers six difficulty levels, seasonal events, and tournaments that keep the experience fresh, along with the largest player community in the category.
 
 **Strengths:**
 
-- Enormous puzzle library with 10,000+ puzzles
 - Six difficulty levels including Fast and Giant modes
 - Seasonal events with collectible trophies and medals
 - Tournaments for competitive players
@@ -126,13 +126,13 @@ Sudoku Coach is the most education-focused Sudoku app available. It teaches over
 | **In-app purchases** | None | Yes | One-time purchase |
 | **Undo/Redo** | Unlimited | Unlimited | Yes |
 | **Platforms** | Android | Android, iOS | Android |
-| **Puzzle count** | Unlimited generated | 10,000+ | Input your own |
+| **Puzzle count** | Unlimited (generated on-device) | 10,000+ (pre-made library) | Input your own |
 
 ## Where Each App Shines
 
 **Sudoku Spark is best for:** Players who want to genuinely improve at Sudoku. The teaching hints bridge the gap between "stuck" and "understand" — you learn real techniques while playing. The combination of educational hints, zero cost, minimal data collection, and modern design is unique. No other app offers all four together.
 
-**Sudoku.com is best for:** Players who want the largest content library and a competitive social experience. If you want tournaments, seasonal events, collectible trophies, and a massive community, Sudoku.com delivers at scale. It is the most "complete" Sudoku platform in terms of raw content volume.
+**Sudoku.com is best for:** Players who want a competitive social experience with the largest community. If you want tournaments, seasonal events, collectible trophies, and six difficulty modes including unique formats like Fast and Giant, Sudoku.com delivers at scale with 50M+ downloads and cross-platform support.
 
 **Sudoku Coach is best for:** Serious Sudoku students who want deep, systematic technique instruction. If you want to learn advanced methods like 3D Medusa or Forcing Chains with detailed visual breakdowns, Sudoku Coach is the most thorough teaching tool — but the $9.99 price and dated design are trade-offs.
 
@@ -145,8 +145,7 @@ Sudoku Coach is the most education-focused Sudoku app available. It teaches over
 - You do not want to pay anything or deal with upsell prompts
 
 **Choose Sudoku.com if:**
-- You want the largest puzzle library available
-- You enjoy competitive features like tournaments and events
+- You enjoy competitive features like tournaments and seasonal events
 - You play on both Android and iOS
 - Community size and established reputation matter to you
 
