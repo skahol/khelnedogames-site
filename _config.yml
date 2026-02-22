@@ -1,0 +1,20 @@
+title: "Khelnedo Games — Premium Brain Training Puzzle Games"
+description: "Download Sudoku Spark and master Sudoku with smart hints, daily challenges, and 4 difficulty levels. Free brain training puzzle game for Android."
+url: "https://khelnedogames.com"
+baseurl: ""
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      image: "/assets/images/sudoku-spark-og.png"
+
+kramdown:
+  input: GFM
+  hard_wrap: false

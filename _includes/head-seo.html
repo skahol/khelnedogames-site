@@ -1,0 +1,154 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- Primary Meta Tags -->
+<title>{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }} | Khelnedo Games{% else %}{{ site.title }}{% endif %}</title>
+<meta name="title" content="{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }} | Khelnedo Games{% else %}{{ site.title }}{% endif %}">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}sudoku, sudoku app, free sudoku, brain training, puzzle game, daily sudoku, sudoku spark, number puzzle{% endif %}">
+<meta name="author" content="Khelnedo Games">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{% if page.og_type %}{{ page.og_type }}{% else %}website{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+<meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/sudoku-spark-og.png{% endif %}">
+<meta property="og:site_name" content="Khelnedo Games">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+<meta name="twitter:title" content="{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/sudoku-spark-og.png{% endif %}">
+
+<!-- App Links -->
+<meta property="al:android:package" content="com.worldclass.sudoku">
+<meta property="al:android:url" content="https://play.google.com/store/apps/details?id=com.worldclass.sudoku">
+<meta property="al:android:app_name" content="Sudoku Spark">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+
+<!-- Preconnect for performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% if page.schema_app %}
+<!-- Schema.org: SoftwareApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Sudoku Spark — Play & Learn",
+  "description": "Master Sudoku with smart hints, daily challenges, and 4 difficulty levels. Free brain training puzzle game for Android.",
+  "operatingSystem": "Android",
+  "applicationCategory": "GameApplication",
+  "applicationSubCategory": "Puzzle",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.worldclass.sudoku",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.worldclass.sudoku",
+  "screenshot": [
+    "https://khelnedogames.com/assets/images/screenshots/screenshot-1.webp",
+    "https://khelnedogames.com/assets/images/screenshots/screenshot-2.webp"
+  ],
+  "featureList": [
+    "Daily Sudoku Challenges",
+    "4 Difficulty Levels: Easy, Medium, Hard, Expert",
+    "Smart Hints with Learning Explanations",
+    "Offline Play",
+    "Auto-Save Progress",
+    "30+ Achievements",
+    "Detailed Statistics",
+    "Notes Mode",
+    "Unlimited Undo & Redo",
+    "Premium Themes: Light, Dark, Soft"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Khelnedo Games",
+    "url": "https://khelnedogames.com"
+  }
+}
+</script>
+{% endif %}
+
+{% if page.schema_org %}
+<!-- Schema.org: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Khelnedo Games",
+  "url": "https://khelnedogames.com",
+  "logo": "https://khelnedogames.com/assets/images/khelnedo-logo.png",
+  "description": "Premium brain training puzzle games. Creators of Sudoku Spark.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "khelnedogames@gmail.com",
+    "contactType": "customer support"
+  },
+  "sameAs": [
+    "https://play.google.com/store/apps/dev?id=6671897208900843596"
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.schema_faq %}
+<!-- Schema.org: FAQPage -->
+<script type="application/ld+json">
+{{ page.schema_faq }}
+</script>
+{% endif %}
+
+{% if page.schema_howto %}
+<!-- Schema.org: HowTo -->
+<script type="application/ld+json">
+{{ page.schema_howto }}
+</script>
+{% endif %}
+
+<!-- Schema.org: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://khelnedogames.com/"
+    }{% if page.breadcrumb_2 %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.breadcrumb_2 }}",
+      "item": "https://khelnedogames.com{{ page.breadcrumb_2_url }}"
+    }{% endif %}{% if page.breadcrumb_3 %},
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.breadcrumb_3 }}",
+      "item": "https://khelnedogames.com{{ page.url | replace: 'index.html', '' }}"
+    }{% endif %}
+  ]
+}
+</script>

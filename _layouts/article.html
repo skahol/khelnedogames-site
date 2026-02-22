@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head-seo.html %}
+</head>
+<body>
+  {% include header.html %}
+  <main class="article-page">
+    <article class="content-article">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> &rsaquo;
+        <a href="/sudoku-spark/">Sudoku Spark</a> &rsaquo;
+        <span>{{ page.title }}</span>
+      </nav>
+      <h1>{{ page.title }}</h1>
+      {% if page.last_updated %}<p class="article-meta">Last updated: {{ page.last_updated }} &middot; By Khelnedo Games Team</p>{% endif %}
+      {{ content }}
+      <div class="article-cta">
+        <h2>Ready to Put These Skills to Work?</h2>
+        <p>Download Sudoku Spark and start playing with smart hints, daily challenges, and 4 difficulty levels.</p>
+        {% include app-download-badge.html %}
+      </div>
+    </article>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
