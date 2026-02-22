@@ -11,6 +11,10 @@ breadcrumb_3: "How to Play"
 ---
 
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"How to Play Sudoku — Complete Beginner's Guide","author":{"@type":"Organization","name":"Khelnedo Games","url":"https://khelnedogames.com"},"publisher":{"@type":"Organization","name":"Khelnedo Games","logo":{"@type":"ImageObject","url":"https://khelnedogames.com/assets/images/khelnedo-logo.png"}},"datePublished":"2026-02-22","dateModified":"2026-02-22","description":"Learn how to play Sudoku from scratch with this complete beginner's guide.","mainEntityOfPage":"https://khelnedogames.com/sudoku-spark/how-to-play/"}
+</script>
+
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"HowTo","name":"How to Play Sudoku","description":"A complete step-by-step guide to understanding Sudoku rules and solving your first puzzle.","totalTime":"PT10M","step":[{"@type":"HowToStep","name":"Understand the Grid","text":"A Sudoku grid is 9x9, divided into nine 3x3 boxes. Some cells are pre-filled with numbers (givens)."},{"@type":"HowToStep","name":"Learn the One Rule","text":"Each row, each column, and each 3x3 box must contain the numbers 1 through 9 exactly once. No repeats allowed."},{"@type":"HowToStep","name":"Scan for Singles","text":"Look for rows, columns, or boxes where only one number is missing. Fill in that number."},{"@type":"HowToStep","name":"Use Elimination","text":"For each empty cell, eliminate numbers that already appear in its row, column, and box. If only one number remains, that is the answer."},{"@type":"HowToStep","name":"Use Pencil Marks","text":"Write small candidate numbers in cells where multiple options remain. This helps you track possibilities and spot patterns."},{"@type":"HowToStep","name":"Look for Hidden Singles","text":"Even when a cell has multiple candidates, a number might only be possible in one cell within a row, column, or box. That cell must contain that number."}]}
 </script>
 

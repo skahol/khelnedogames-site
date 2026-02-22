@@ -16,6 +16,11 @@ defaults:
       layout: "default"
       image: "/assets/images/sudoku-spark-og.png"
 
+exclude:
+  - SEO_ACTION_PLAN.md
+  - README.md
+  - Gemfile.lock
+
 kramdown:
   input: GFM
   hard_wrap: false

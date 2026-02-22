@@ -22,6 +22,12 @@
 <!-- Google Site Verification -->
 <meta name="google-site-verification" content="googlec88f0ef08bc2affc">
 
+<!-- Bing Webmaster Verification (replace content value after verifying at bing.com/webmasters) -->
+<meta name="msvalidate.01" content="PENDING_BING_VERIFICATION">
+
+<!-- Yandex Webmaster Verification (replace content value after verifying at webmaster.yandex.com) -->
+<meta name="yandex-verification" content="PENDING_YANDEX_VERIFICATION">
+
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="{% if page.og_type %}{{ page.og_type }}{% else %}website{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
@@ -163,53 +169,42 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "itemListElement": [
-    {
-      "@type": "SiteNavigationElement",
-      "position": 1,
-      "name": "Sudoku Spark",
-      "description": "Free brain training puzzle game with daily challenges and smart hints",
-      "url": "https://khelnedogames.com/sudoku-spark/"
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "position": 2,
-      "name": "How to Play Sudoku",
-      "description": "Complete beginner's guide to Sudoku rules and strategies",
-      "url": "https://khelnedogames.com/sudoku-spark/how-to-play/"
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "position": 3,
-      "name": "Sudoku Tips & Strategies",
-      "description": "15 techniques from beginner to expert level",
-      "url": "https://khelnedogames.com/sudoku-spark/tips-and-strategies/"
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "position": 4,
-      "name": "Features",
-      "description": "All Sudoku Spark features: daily challenges, hints, achievements",
-      "url": "https://khelnedogames.com/sudoku-spark/features/"
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "position": 5,
-      "name": "FAQ",
-      "description": "Frequently asked questions about Sudoku and Sudoku Spark",
-      "url": "https://khelnedogames.com/sudoku-spark/faq/"
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "position": 6,
-      "name": "Download on Google Play",
-      "description": "Get Sudoku Spark free on the Google Play Store",
-      "url": "https://play.google.com/store/apps/details?id=com.worldclass.sudoku"
-    }
+    {"@type": "SiteNavigationElement", "position": 1, "name": "Sudoku Spark", "description": "Free brain training puzzle game with daily challenges and smart hints", "url": "https://khelnedogames.com/sudoku-spark/"},
+    {"@type": "SiteNavigationElement", "position": 2, "name": "How to Play Sudoku", "description": "Complete beginner guide to Sudoku rules and strategies", "url": "https://khelnedogames.com/sudoku-spark/how-to-play/"},
+    {"@type": "SiteNavigationElement", "position": 3, "name": "Sudoku Tips & Strategies", "description": "15 techniques from beginner to expert level", "url": "https://khelnedogames.com/sudoku-spark/tips-and-strategies/"},
+    {"@type": "SiteNavigationElement", "position": 4, "name": "Sudoku Rules", "description": "Official rules of Sudoku explained clearly", "url": "https://khelnedogames.com/sudoku-spark/sudoku-rules/"},
+    {"@type": "SiteNavigationElement", "position": 5, "name": "Sudoku for Beginners", "description": "Start solving your first Sudoku puzzle today", "url": "https://khelnedogames.com/sudoku-spark/sudoku-for-beginners/"},
+    {"@type": "SiteNavigationElement", "position": 6, "name": "Sudoku for Students", "description": "Educational brain training for schools and classrooms", "url": "https://khelnedogames.com/sudoku-spark/sudoku-for-students/"},
+    {"@type": "SiteNavigationElement", "position": 7, "name": "Daily Sudoku Challenge", "description": "A new puzzle every day for all players worldwide", "url": "https://khelnedogames.com/sudoku-spark/daily-sudoku/"},
+    {"@type": "SiteNavigationElement", "position": 8, "name": "Classic Sudoku", "description": "The original 9x9 number puzzle game", "url": "https://khelnedogames.com/sudoku-spark/classic-sudoku/"},
+    {"@type": "SiteNavigationElement", "position": 9, "name": "Brain Training Games", "description": "How Sudoku improves logical thinking, memory, and concentration", "url": "https://khelnedogames.com/sudoku-spark/brain-training-games/"},
+    {"@type": "SiteNavigationElement", "position": 10, "name": "Features", "description": "All Sudoku Spark features: daily challenges, hints, achievements", "url": "https://khelnedogames.com/sudoku-spark/features/"},
+    {"@type": "SiteNavigationElement", "position": 11, "name": "Best Sudoku App", "description": "Why Sudoku Spark is the best free Sudoku app for Android", "url": "https://khelnedogames.com/sudoku-spark/best-sudoku-app/"},
+    {"@type": "SiteNavigationElement", "position": 12, "name": "Top Sudoku Apps Comparison", "description": "Honest comparison of Sudoku Spark, Sudoku.com, and Sudoku Coach", "url": "https://khelnedogames.com/sudoku-spark/top-sudoku-apps/"},
+    {"@type": "SiteNavigationElement", "position": 13, "name": "FAQ", "description": "Frequently asked questions about Sudoku and Sudoku Spark", "url": "https://khelnedogames.com/sudoku-spark/faq/"},
+    {"@type": "SiteNavigationElement", "position": 14, "name": "About Khelnedo Games", "description": "About the developer behind Sudoku Spark", "url": "https://khelnedogames.com/about/"},
+    {"@type": "SiteNavigationElement", "position": 15, "name": "Download on Google Play", "description": "Get Sudoku Spark free on the Google Play Store", "url": "https://play.google.com/store/apps/details?id=com.worldclass.sudoku"}
   ]
 }
 </script>
 {% endif %}
 
+
+{% if page.layout == 'article' %}
+<!-- Schema.org: Speakable (Google Assistant / voice search) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title }}",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".content-article h1", ".content-article h2", ".content-article p"]
+  },
+  "url": "{{ site.url }}{{ page.url | replace: 'index.html', '' }}"
+}
+</script>
+{% endif %}
 
 <!-- Schema.org: BreadcrumbList -->
 <script type="application/ld+json">
