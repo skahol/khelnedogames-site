@@ -110,6 +110,25 @@
 {% endif %}
 
 {% if page.schema_org %}
+<!-- Schema.org: WebSite with Sitelinks Search Box -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Khelnedo Games",
+  "alternateName": ["Sudoku Spark", "Khelnedo"],
+  "url": "https://khelnedogames.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khelnedogames.com/sudoku-spark/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
 <!-- Schema.org: Organization -->
 <script type="application/ld+json">
 {
@@ -119,13 +138,70 @@
   "url": "https://khelnedogames.com",
   "logo": "https://khelnedogames.com/assets/images/khelnedo-logo.png",
   "description": "Premium brain training puzzle games. Creators of Sudoku Spark.",
+  "founder": {
+    "@type": "Person",
+    "name": "Saksham Kahol"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "email": "khelnedogames@gmail.com",
     "contactType": "customer support"
   },
   "sameAs": [
-    "https://play.google.com/store/apps/dev?id=6671897208900843596"
+    "https://play.google.com/store/apps/dev?id=6671897208900843596",
+    "https://legal.khelnedogames.com"
+  ]
+}
+</script>
+
+<!-- Schema.org: SiteNavigationElement (triggers Sitelinks) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "SiteNavigationElement",
+      "position": 1,
+      "name": "Sudoku Spark",
+      "description": "Free brain training puzzle game with daily challenges and smart hints",
+      "url": "https://khelnedogames.com/sudoku-spark/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 2,
+      "name": "How to Play Sudoku",
+      "description": "Complete beginner's guide to Sudoku rules and strategies",
+      "url": "https://khelnedogames.com/sudoku-spark/how-to-play/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 3,
+      "name": "Sudoku Tips & Strategies",
+      "description": "15 techniques from beginner to expert level",
+      "url": "https://khelnedogames.com/sudoku-spark/tips-and-strategies/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 4,
+      "name": "Features",
+      "description": "All Sudoku Spark features: daily challenges, hints, achievements",
+      "url": "https://khelnedogames.com/sudoku-spark/features/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 5,
+      "name": "FAQ",
+      "description": "Frequently asked questions about Sudoku and Sudoku Spark",
+      "url": "https://khelnedogames.com/sudoku-spark/faq/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 6,
+      "name": "Download on Google Play",
+      "description": "Get Sudoku Spark free on the Google Play Store",
+      "url": "https://play.google.com/store/apps/details?id=com.worldclass.sudoku"
+    }
   ]
 }
 </script>
