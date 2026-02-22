@@ -1,0 +1,28 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Khelnedo Games</title>
+  <subtitle>Premium Brain Training Puzzle Games</subtitle>
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>Khelnedo Games</name>
+    <email>khelnedogames@gmail.com</email>
+  </author>
+  {% for page in site.pages %}{% if page.layout == 'article' %}
+  <entry>
+    <title>{{ page.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}" rel="alternate" type="text/html"/>
+    <id>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</id>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <summary>{{ page.description | xml_escape }}</summary>
+    <author>
+      <name>Khelnedo Games</name>
+    </author>
+  </entry>
+  {% endif %}{% endfor %}
+</feed>

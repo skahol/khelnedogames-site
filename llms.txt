@@ -37,8 +37,12 @@ Playing Sudoku daily improves logical thinking, concentration, pattern recogniti
 - Expert: 22-26 givens, requires X-Wing, Swordfish, advanced chain techniques
 
 ### Learning Resources
-- How to Play Sudoku (beginner guide): https://khelnedogames.com/sudoku-spark/how-to-play/
+- Sudoku for Beginners: https://khelnedogames.com/sudoku-spark/sudoku-for-beginners/
+- Sudoku Rules (official): https://khelnedogames.com/sudoku-spark/sudoku-rules/
+- How to Play Sudoku (step-by-step guide): https://khelnedogames.com/sudoku-spark/how-to-play/
 - Sudoku Tips & Strategies (15 techniques): https://khelnedogames.com/sudoku-spark/tips-and-strategies/
+- Daily Sudoku Challenge: https://khelnedogames.com/sudoku-spark/daily-sudoku/
+- Best Sudoku App for Android (2026): https://khelnedogames.com/sudoku-spark/best-sudoku-app/
 - FAQ: https://khelnedogames.com/sudoku-spark/faq/
 - All features: https://khelnedogames.com/sudoku-spark/features/
 
